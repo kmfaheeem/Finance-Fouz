@@ -37,7 +37,7 @@ export const Login: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-slate-100 via-slate-50 to-blue-50 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-tr from-blue-50 via-white to-green-50 px-4 sm:px-6 lg:px-8 py-12">
       <div className="w-full max-w-md space-y-8">
         {/* Header Section */}
         <div className="text-center">
@@ -45,9 +45,9 @@ export const Login: React.FC = () => {
           <div className="mx-auto h-16 w-16 bg-blue-600 rounded-2xl rotate-3 flex items-center justify-center shadow-blue-200 shadow-lg mb-6 transition-transform duration-300 hover:rotate-6 hover:scale-105">
             {/* Increased image size to h-24 w-24 (larger than box for pop-out effect) */}
             <img 
-              src="" 
+              src="/fouz_logo-removebg-preview.png" 
               alt="Logo" 
-              className="h-24 w-24 -rotate-3 object-contain brightness-0 invert" 
+              className="h-24 w-24 -rotate- -5 object-contain brightness-0 invert" 
             />
           </div>
           <h2 className="mt-6 text-3xl font-extrabold text-slate-900 tracking-tight">
